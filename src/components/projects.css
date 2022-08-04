@@ -1,0 +1,46 @@
+/* src/components/Projects/projects.css */
+
+/* Containers */
+.cards-container {
+  display: flex;
+  flex-direction: row ;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  color: white;
+  font-size: large;
+}
+
+.card-header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-links-container {
+  display: flex;
+  gap: 5%;
+  font-size: 1.5rem;
+}
+
+/* Font Awesome icons */
+a,
+i {
+  color: white;
+}
+
+/* Project Tech Tags */
+.tags-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-tags {
+  width: fit-content;
+  margin: 1%;
+}
+
+@media only screen and (max-width: 600px) {
+  .cards-container {
+    flex-direction: column-reverse;
+  }
+}

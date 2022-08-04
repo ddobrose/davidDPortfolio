@@ -1,0 +1,14 @@
+/* src/components/ContactMe/contactme.css */
+
+.contact-container {
+  text-align: center;
+}
+
+/* font awesome icons */
+.btn i {
+  color: rgb(0, 0, 0);
+}
+
+.btn:hover i {
+  color: black;
+}
